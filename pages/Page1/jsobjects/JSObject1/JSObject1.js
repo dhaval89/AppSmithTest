@@ -2,7 +2,7 @@ export default {
 	myVar1: [],
 	myVar2: {},
 	myFun1 () {
-		return appsmith.URL.queryParams.name;
+		showAlert(Form1.data.Input1);
 	},
 	async myFun2 () {
 		//	use async-await or promises
